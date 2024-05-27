@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-mode body {
+    background-color: #222;
+    color: #fff;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: rgb(38, 126, 185);
+}
+
+/*HEADER*/
+
+header{
+    width: 100%;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background-color: rgb(112, 178, 216);
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 1px 7px black;
+}
+
+.div-header-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*/HEADER*/
+
+/*MAIN*/
+
+.container{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+    margin-bottom: 10vh;
+}
+
+.area-cadastro{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+/*/MAIN*/
+
+/*FORM*/
+
+#asterisk{
+    color: red;
+}
+
+#text-form{
+    font-size: 10px;
+    text-align: center;
+}
+
+#form-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+.form-input{
+    width: 75%;
+    height: 40px;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#form-section label{
+    width: 75%;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 3vh;
+}
+
+#btn-logar{
+    border: none;
+    color: white;
+    background-color: #68b1db;
+    cursor: pointer;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+}
+
+.half-input{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.flex-input input{
+    height: 40px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.input-right{
+    margin-left: 10px;
+}
+
+.input-left{
+    margin-right: 10px;
+}
+
+.lbl-form{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.span-width{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.span-alert{
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.input-radio{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
